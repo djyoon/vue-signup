@@ -1,0 +1,36 @@
+body {
+  width: 100%;
+  margin: 0;
+}
+body .top-contents, body .bottom-contents {
+  width: 80%;
+}
+.flex-direction-col {
+  flex-direction: column;
+}
+button {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+input {
+  width: 100%;
+  height: 30px;
+}
+.input-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.input-wrap label, .input-wrap div {
+  flex: 1;
+}
+span.msg {
+  white-space: pre-line;
+  font-size: 12px;
+}
